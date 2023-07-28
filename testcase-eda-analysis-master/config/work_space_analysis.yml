@@ -1,0 +1,8 @@
+interaction_analysis: //span[text()='分析中心']
+create_analysis: //*[@id="root"]/div/section/section/section/main/div/div[1]/span/button
+cancel: //span[text()='取 消']
+confirm: //span[text()='确 定']
+confirm1: //span[text()='搜索']
+autotest_account: jing.huang6
+autotest_password_key: IWM0W9eRbHa9TnQs2V94UE-zWsw-OYKUpdbKc4EPJQo=
+autotest_password: gAAAAABjW5_dlh6sFmGrCP5CSip02NDlENvB3aByEx94wVXhawHdDg_KOA_lk86Sq4EivzciXCYVEjUfmmBGN2XL7ttOqRssng==

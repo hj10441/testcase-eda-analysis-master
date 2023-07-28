@@ -1,0 +1,27 @@
+app_host: 172.16.204.91
+assetIds: 0022807e65dc4d72b48f4f690dbab325
+fan_number: "50"
+start_time: '2021-08-22 18:02:00'
+end_time: '2021-10-29 15:07:12'
+farm_cn: CN-81_08
+fileserver_host: 172.16.205.8
+name: CMS
+url: http://{}/tsdb-service/v2.0/raw
+username: envuser
+
+private_app_key: gAAAAABhLvRSzKv6OFJ2iBOdlOhUO5Any2Qtph7yGKVV1S4MxxQiL-E6MiMHd2q0lU3AUZ7h-lmhc4T_AIhiQattUg-i-novnWQaQXpOm32ex4spGO454S8=
+public_app_key: AqmxZuttfESHUtJqhkEQ6GxN8ve9_PaWg4nMyNaP3zI=
+
+private_eda_key: gAAAAABhjherp-oAWJEziOPRyuYOzv5dtC6TJ2cRquao2-tkT1tCHRQoIaEq-QLHnVmm1lnGfZUfB025Aiod1B1nIAXqDTDC_Q==
+public_eda_key: IU0qmrxwfMl1YAUNIMVmFqYGWZ2drvIewCXmFrLnBfc=
+
+mysql_password_key: p2rrY13HJjzCRqASOiORikKUOGXVtnWKOfrcWPFl5iI=
+mysql_password: gAAAAABhlMj034gqGsKMTXsw7fvYbT5MDni7ggwZKOGjHFqLLMD968GOa3Rqr5LubdUWBTkOPyD5ebFfR637EKOlWjOWVnGZyg==
+
+autotest2_account: jing.huang6
+autotest2_password_key: de_9KKpLL7GyZ7FoSmH9Abew4t4xxH17Wp30SeHep8s=
+autotest2_password: gAAAAABjvOyXgXsvgu07XLfhRcMbZPsMEmTukXeh_F2ZVEKIzCOg8aNUfUvBimrwcW8AlrDFxKSUTxJrunnqYIFGmcB6R5Gs9A==
+
+autotest_account: A_P_autotest
+autotest_password_key: T84sQyz_5zwZoNFLrd3UXWzd67z5ighhfOMK8VYEhz8=
+autotest_password: gAAAAABkPlsq5cSUTrEmHKLeTAkVqp26FPin_OcjATjnzlY1YLrIUWKZ9Xnn2g1YzlOXfShYUtNVWppa4LHQNEz3xMnzKlfrg-YH3GtthlzoOL-paoXXvlw=

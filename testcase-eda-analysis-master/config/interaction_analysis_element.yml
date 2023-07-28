@@ -1,0 +1,9 @@
+confirm: //span[text()='确 定']
+database_status: //label[text()='连接测试成功！']
+save: //span[text()='保 存']
+login_name: //td[text()='test_jing.huang']
+assert_name: //li[text()='test_jing.huang']
+analyse: //span[text()='分析中心']
+interaction_analysis: //span[text()='分析中心']
+data_source_management: 数据源管理
+plus: //*[@id='root']/div/section/section/section/main/div/div/div/div[1]/div[1]/div/button

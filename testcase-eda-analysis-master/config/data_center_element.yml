@@ -1,0 +1,38 @@
+#-
+#  name: 进入子产品列表页面
+#  interaction_analysis: //span[text()='交互分析']
+#  data_source_management: 数据源管理
+#  plus: //*[@id='root']/div/section/section/section/main/div/div/div/div[1]/div[1]/div/button
+#-
+#  name: 添加子产品
+#  add_product_button:
+#    locate_type: xpath
+#    locate: //div/div/div/div[1]/div[1]/button[2]
+#  input_nameCH:
+#    locate_type: id
+#    locate: nameCh
+#    text: 子产品测试
+#  input_nameEn:
+#    locate_type: id
+#    locate: nameEn
+#    text: name
+#  input_description:
+#    locate_type: id
+#    locate: description
+#    text: 测试哈！
+#  define_button:
+#    locate_type: xpath
+#    locate: //div[2][@class='ant-modal-footer']/div/button[2]
+#  assert:
+#    locate_type: xpath
+#    locate: //tbody/tr[9]/td[3][text()='测试哈！']
+#    assert_text: 测试哈！
+
+data_center: //span[text()='数据中心']
+all_fan: //li[text()='集成测试环境所有风机数据量']
+filtration: //span[text()='数据查询']
+confirm: //span[text()='确 定']
+farm_name: //span[text()='风场名称']
+icon: //span[@class='ag-icon ag-icon-menu']
+search: //input[@placeholder='Filter...']
+fan_quality: //div[text()='下钻风机数据质量']
