@@ -77,37 +77,49 @@ class TestUiEDA:
     # def test_06_workspace_vdmdata_query_n(self):
     #     assert self.cms_page.vdmdata_query_n()
 
-    @allure.title("分析设计-创建dt10min分析设计")
-    def test_n_workspace_add_dt10min_data1(self):
-        assert self.cms_page.add_workspace_dt10min_data1()
-
-    @allure.title("分析设计-画出dt10min散点图分析设计")
-    def test_n_workspace_add_dt10min_data2(self):
-        assert self.cms_page.add_workspace_dt10min_data2()
-
-    @allure.title("分析设计-画出dt10min折线图分析设计")
-    def test_n_workspace_add_dt10min_data3(self):
-        assert self.cms_page.add_workspace_dt10min_data3()
-
-    @allure.title("分析设计-画出dt10min柱状图分析设计")
-    def test_n_workspace_add_dt10min_data4(self):
-        assert self.cms_page.add_workspace_dt10min_data4()
-
-    @allure.title("分析设计-根据dt10min柱状图设置参考线")
-    def test_n_workspace_add_dt10min_data5(self):
-        assert self.cms_page.add_workspace_dt10min_data5()
-
-    @allure.title("分析设计-根据dt10min柱状图进行分bin图展示")
-    def test_n_workspace_add_dt10min_data6(self):
-        assert self.cms_page.add_workspace_dt10min_data6()
-
-    @allure.title("分析设计-根据dt10min柱状图取消分bin图展示并点击下钻")
-    def test_n_workspace_add_dt10min_data7(self):
-        assert self.cms_page.add_workspace_dt10min_data7()
-
+    # @allure.title("分析设计-创建dt10min分析设计")
+    # def test_n_workspace_add_dt10min_data1(self):
+    #     assert self.cms_page.add_workspace_dt10min_data1()
+    #
+    # @allure.title("分析设计-画出dt10min散点图分析设计")
+    # def test_n_workspace_add_dt10min_data2(self):
+    #     assert self.cms_page.add_workspace_dt10min_data2()
+    #
+    # @allure.title("分析设计-画出dt10min折线图分析设计")
+    # def test_n_workspace_add_dt10min_data3(self):
+    #     assert self.cms_page.add_workspace_dt10min_data3()
+    #
+    # @allure.title("分析设计-画出dt10min折线图分析设计")
+    # def test_n_workspace_add_dt10min_data_4(self):
+    #     assert self.cms_page.add_workspace_dt10min_data_4()
+    #
+    # @allure.title("分析设计-画出dt10min柱状图分析设计")
+    # def test_n_workspace_add_dt10min_data5(self):
+    #     assert self.cms_page.add_workspace_dt10min_data5()
+    #
+    # @allure.title("分析设计-根据dt10min柱状图设置参考线")
+    # def test_n_workspace_add_dt10min_data6(self):
+    #     assert self.cms_page.add_workspace_dt10min_data6()
+    #
+    # @allure.title("分析设计-根据dt10min柱状图进行分bin图展示")
+    # def test_n_workspace_add_dt10min_data7(self):
+    #     assert self.cms_page.add_workspace_dt10min_data7()
+    #
+    # @allure.title("分析设计-根据dt10min柱状图取消分bin图展示并点击下钻")
+    # def test_n_workspace_add_dt10min_data8(self):
+    #     assert self.cms_page.add_workspace_dt10min_data8()
+    #
     # @allure.title("分析设计-画出dt10min表格分析设计")
-    # def test_n_workspace_add_dt10min_dataX(self):
-    #     assert self.cms_page.add_workspace_dt10min_data_X()
+    # def test_n_workspace_add_dt10min_data9(self):
+    #     assert self.cms_page.add_workspace_dt10min_data9()
+    #
+    # @allure.title("分析设计-保存dt10min表格分析设计")
+    # def test_n_workspace_add_dt10min_data10(self):
+    #     assert self.cms_page.add_workspace_dt10min_data10()
+    #
+    # @allure.title("分析设计-画出dt10min表格分析设计并验证")
+    # def test_n_workspace_add_dt10min_data11(self):
+    #     assert self.cms_page.add_workspace_dt10min_data11()
 
     # def test_04_workspace_dt10min_data_table(self):
     #    assert self.cms_page.dt10min_scatter_diagram()
@@ -115,9 +127,33 @@ class TestUiEDA:
     # def test_n_delete_work_space_analysis(self):
     #     assert self.cms_page.delete_my_analysis()
 
+    @allure.title("分析设计-创建SOE分析设计-所有事件")
+    def test_n_workspace_add_soe_data1(self):
+        assert self.cms_page.add_workspace_soe_data1()
+
+    @allure.title("分析设计-画出SOE-所有事件表格图分析设计")
+    def test_n_workspace_add_soe_data2(self):
+        assert self.cms_page.add_workspace_soe_data2()
+
+    @allure.title("分析设计-创建SOE分析设计-所有输出Tracelog事件")
+    def test_n_workspace_add_soe_data3(self):
+        assert self.cms_page.add_workspace_soe_data3()
+
+    @allure.title("分析设计-画出SOE-所有输出Tracelog事件表格图分析设计")
+    def test_n_workspace_add_soe_data4(self):
+        assert self.cms_page.add_workspace_soe_data4()
+
+    @allure.title("分析设计-创建SOE分析设计-所有选择的事件")
+    def test_n_workspace_add_soe_data5(self):
+        assert self.cms_page.add_workspace_soe_data5()
+
+    @allure.title("分析设计-画出SOE-所有输出Tracelog事件表格图分析设计")
+    def test_n_workspace_add_soe_data6(self):
+        assert self.cms_page.add_workspace_soe_data6()
+
 
 if __name__ == '__main__':
-    pytest.main(['test_case_eda_ui_04_work_space_analysis.py', '-vs'])
-    pytest.main(['test_case_eda_ui_01_interaction_analysis.py', '-s', '--alluredir', "../../report/tmp"])
+    # pytest.main(['test_case_eda_ui_04_work_space_analysis.py', '-vs'])
+    pytest.main(['test_case_eda_ui_04_work_space_analysis.py', '-vs', '--alluredir', "../../report/tmp"])
     os.system('allure generate ../report/tmp -o  ../report/report --clean')
     os.system(r'allure serve C:\Xiangmu\test_cms\testcase-cms\report\tmp')
